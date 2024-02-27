@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito+Sans:opsz,wght@6..12,600;6..12,700&family=Spline+Sans+Mono:wght@400;500;600;700&display=swap');
+body{
+    font-family: "spline sans", sans-serif;
+    color: #7777;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color:#222;
+}
+a:hover{
+    color:#f58d17;
+
+}
+
+img{
+    width:100%;
+    
+      
+}
+
+section{
+    padding-top:120px ;
+    padding-bottom: 120px;
+    
+}
+nav{
+ height: fit-content;
+ padding: 0;
+ background: linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.699));
+ 
+
+}
+
+nav img{
+  max-width:125px
+}
+
+.shadow-on-hover{
+  transition: all 0.4s;
+}
+.shadow-on-hover:hover{
+  box-shadow: 0 10px 40px  rgba(0, 0,0, 0.1);
+}
+
+.sample{
+    margin: 0%;
+}
+
+.btn {
+    border:0;
+    padding: 14px 38px;
+}
+
+.btn-brand{
+    color: #fff;
+    font-weight: 500;
+    border-color: #f58d17;
+    background-color: #f58d17;
+}
+
+.btn-brand:hover{
+    border-color: #ca7310;
+    background-color: #ca7310;
+    color: white;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover  !important;
+    background-repeat: no-repeat  !important;
+}
+
+
+/* 
+slider */
+
+.slide-1{
+    background: linear-gradient(rgba(0, 0,0, 0.5),rgba(0, 0,0, 0.5)), url(./images/slide-1.jpg);
+
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0,0, 0.5),rgba(0, 0, 0, 0.3)), url(./images/slide-10.jpg);
+
+}
+#heroslider h6::after,
+  #heroslider h6::before{
+    content: "";
+    background-color: white;
+    width:40px;
+    height: 4px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    
+  }
+
+.carousel-control-prev{
+
+  background-color: black; 
+  width: 40px; 
+  height:70px ;
+  margin: auto;
+}
+
+
+.carousel-control-next{
+
+    background-color: black; 
+    width: 40px; 
+    height:70px ;
+    margin: auto;
+  }
+  
+  /* about */
+
+  
+  #about .divider{
+    width: 60px;
+    height:2px;
+    display:block ;
+    background-color: black;
+
+  }
+
+  .intro-text{
+    margin-bottom: 40px;
+    text-align:center;
+  }
+
+  .intro-text p{
+    max-width:500px;
+    margin:16px auto 0 auto;
+  }
+
+  /* menu */
+
+  #menu .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: black;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0,0, 0.1);
+  }
+
+  #menu .nav-pills .nav-link.active{
+    background-color: #f58d17;
+    color: white;
+  }
+
+  .menu-item .star{
+    color:#f58d17 ;
+  }
+
+  #features{
+    background : linear-gradient(rgba(0, 0,0, 0.5),rgba(0, 0,0, 0.5)), url(./images/slide-1.jpg);
+  }
+.features{
+  border:2px solid rgba(255, 255, 255, 0.4)
+}
+  
+  .features-icon{
+    width :80px;
+    height: 80px;
+    background-color: #f58d17;
+    color: white;
+    font-size: 20px;
+    display: inline-grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  /* reviews */
+  #features{
+    background : linear-gradient(rgba(0, 0,0, 0.5),rgba(0, 0,0, 0.5)), url(./images/slide-2.jpg);
+  }
+#reservation .form-control:focus{
+  box-shadow: none;
+  border-color: #f58d17;
+  
+}
+#reservation input.form-control{
+  height: 47px;
+}
+
+/* footer */
+
+footer{
+  background : linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)), url(./images/slide-1.jpg);
+  
+}
+
+
+
+footer .social-links{
+font-weight: normal;
+font-size: 24px;
+margin-right: 10px;
+}
+
+footer img{
+  max-width:175px
+}
+
+footer p{
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer a{
+  color:  #f58d17 ;
+  text-decoration: none;
+}
+
